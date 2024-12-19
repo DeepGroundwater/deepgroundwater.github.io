@@ -1,0 +1,33 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling", "hatch-vcs"]
+
+[project]
+name = "deepgroundwater.github.io"
+description = "DeepGroundwater blog site"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Tadd Bindas"},
+    {name = "Jonathan Frame"},
+    {name = "Ryoko Araki"},
+]
+maintainers = [
+    {name = "Tadd Bindas", email = "taddbindas@gmail.com"},
+    {name = "Jonathan Frame", email = ""},
+    {name = "Ryoko Araki", email = ""},
+]
+dependencies = [
+    "pillow",
+    "cairosvg",
+    "mkdocs-material",
+    "mkdocs-git-committers-plugin",
+    "mkdocs-material-extensions",
+    "mkdocs-git-authors-plugin",
+    "mkdocs-git-revision-date-localized-plugin",
+]
+dynamic = ["version"]  # Add this line to indicate dynamic versioning
+
+[tool.hatch]
+version.source = "vcs"
+build.hooks.vcs.version-file = "_version.py"
