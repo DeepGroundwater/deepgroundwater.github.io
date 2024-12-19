@@ -18,7 +18,10 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
+      - run: pip install uv
+      - run: uv venv
+      - run: source .venv/bin/activate
+      - run: uv pip install -e .
       - run: pip install git+https://taddyb:${{ secrets.GHCR_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: pip install pillow cairosvg mkdocs-git-committers-plugin mkdocs-material-extensions mkdocs-git-authors-plugin mkdocs-git-revision-date-localized-plugin
       - run: mkdocs build
       - run: mkdocs gh-deploy --force
