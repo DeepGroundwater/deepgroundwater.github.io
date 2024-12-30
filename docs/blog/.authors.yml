@@ -3,10 +3,12 @@ authors:
     name: Tadd Bindas
     description: Board Member
     avatar: https://github.com/taddyb.png
+    url: https://github.com/taddyb
   jmframe:
     name: Jonathan Frame
     description: Board Member
     avatar: https://github.com/jmframe.png
+    url: https://github.com/jmframe
   rappjer1:
     name: Jeremy Rapp
     description: Board Member
@@ -15,6 +17,7 @@ authors:
     name: Ryoko Araki
     description: Board Member
     avatar: https://github.com/RY4GIT.png
+    url: https://github.com/RY4GIT
   soelemaafnan:
     name: Soelem Aafnan Bhuiyan
     description: Board Member
