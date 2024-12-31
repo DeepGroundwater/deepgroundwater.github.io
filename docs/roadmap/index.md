@@ -1,6 +1,6 @@
 # Roadmap
 
-DeepGroundwater is looking to expand out of Beta development, and into a weekly-updated blog with  articles from both the Editoral board members, and scientific community. 
+DeepGroundwater is looking to expand out of Beta development, and into a consistently-updated blog with  articles from both the Editoral board members, and scientific community. 
 
 ## Features
 
