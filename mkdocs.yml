@@ -76,7 +76,9 @@ hooks:
 
 
 nav:
-  - Home: index.md
+  - Home: 
+    - index.md
+    - How to Contribute: home/contributions.md
   - Blog:
      - blog/index.md
   - Roadmap: 
